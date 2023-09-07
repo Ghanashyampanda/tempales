@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form </title>
+    <link rel="stylesheet" href="css/style1.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">SignUp From</div>
+    <div class="content">
+      <form action="Db.php">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Frist Name</span>
+            <input type="text"  placeholder="Enter Frist Name" required name="fname">
+          </div>
+          <div class="input-box">
+            <span class="details">Last Name</span>
+            <input type="text" placeholder="Enter Last Name" required name="lname">
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required name="email">
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required name="phno">
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password" required name="pass">
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required name="cpass">
+          </div>
+          <div class="input-box">
+            <label for="message">Message</label>
+									<textarea name="message" id="message" cols="60" rows="2" class="form-control" placeholder="Say something about your portfolio" ></textarea>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1" value="m">
+          <input type="radio" name="gender" id="dot-2" value="f">
+          <input type="radio" name="gender" id="dot-3" value="c">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+      <div class="form-link">
+        <span>Already have an account? <a href="Login.html" >Login</a></span>
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>
